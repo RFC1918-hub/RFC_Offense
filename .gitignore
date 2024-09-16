@@ -428,11 +428,3 @@ $py.class
 
 # Linux binaries
 *.out
-
-# exclude exe and cs source code files
-*.exe
-*.cs
-*.ps1
-*.psm1
-*.psd1
-*.dll
