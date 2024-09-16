@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFC-SimpleRunspaceC2", "RFC-SimpleRunspaceC2\RFC-SimpleRunspaceC2.csproj", "{EF324189-A75A-4039-BF5B-0E47BC93B964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFC-SimpleRunspaceC2-Server", "RFC-SimpleRunspaceC2-Server\RFC-SimpleRunspaceC2-Server.csproj", "{2D4F72C0-2811-4C72-AE42-86864DB662E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF324189-A75A-4039-BF5B-0E47BC93B964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF324189-A75A-4039-BF5B-0E47BC93B964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF324189-A75A-4039-BF5B-0E47BC93B964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF324189-A75A-4039-BF5B-0E47BC93B964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4F72C0-2811-4C72-AE42-86864DB662E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4F72C0-2811-4C72-AE42-86864DB662E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4F72C0-2811-4C72-AE42-86864DB662E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4F72C0-2811-4C72-AE42-86864DB662E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8DF620D-4DBB-4A3B-8ADE-ABA34C18DB9D}
+	EndGlobalSection
+EndGlobal

